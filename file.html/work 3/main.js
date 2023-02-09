@@ -7,6 +7,6 @@ function saveToLocalStorage(event){
         EmailID
     }
 
-    localStorage.setItem('userDetails', JSON.stringify(my_obj));
+    localStorage.setItem(EmailID, JSON.stringify(my_obj));
 }
     
